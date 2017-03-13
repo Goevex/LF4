@@ -63,9 +63,9 @@ public class gayCode {
 	 * -Man habe die Bitfolge 0100 und möchte dessen Gray Code 
 	 * -Man übernehme das erste Bit ganz so wie es ist:   0 
 	 * -Für die restlichen drei Bits wende man ein XOR (Exclusive OR) auf alle nebeneinanderliegenden Bits an. Von links nach rechts. 
-	 * 											0 XOR 1 = 1 
-	 * 											1 XOR 0 = 1 
-	 * 											0 XOR 0 = 0 
+	 * 					0 XOR 1 = 1 
+	 * 					1 XOR 0 = 1 
+	 * 					0 XOR 0 = 0 
 	 * -Zum Schluss füge man die Bits zusammen. Der Gray Code zu 0100 lautet also 0110
 	 */
 	private static String[] binaryStringArrayToGrayArray(String[] stringArray) {
