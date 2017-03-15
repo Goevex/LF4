@@ -22,7 +22,7 @@ public class gayCode {
 			}
 		}
 
-		countArray = new int[(int) Math.pow(count, 2)];
+		countArray = new int[(int) Math.pow(2, count)];
 		for (int i = 0; i < countArray.length; i++) {
 			countArray[i] = i;
 		}
